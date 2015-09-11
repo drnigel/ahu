@@ -10,7 +10,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create();
 
 
-var proxyServer = "http://localhost/u-day",
+var proxyServer = "http://localhost/ahu",
     port = 3001;
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
